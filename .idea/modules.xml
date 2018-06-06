@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/microservicecloud-api/microservicecloud-api.iml" filepath="$PROJECT_DIR$/microservicecloud-api/microservicecloud-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloudtest.iml" filepath="$PROJECT_DIR$/springcloudtest.iml" />
-    </modules>
-  </component>
-</project>
