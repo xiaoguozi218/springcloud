@@ -26,10 +26,5 @@ public class Dept implements Serializable {     //Dept（Entity） orm mysql->De
         this.dname = dname;
     }
 
-    public static void main(String[] args) {
-        Dept dept = new Dept();
-        dept.setDb_source("DB01").setDname("RD").setDeptno(12L);
-        System.out.println(dept.toString());
-    }
 
 }
