@@ -7,12 +7,20 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 /**
  *
  * 注意：
- *  修改 C:\Windows\System32\drivers\etc路径下的hosts文件：
+ *  修改 C:\Windows\System32\drivers\etc路径下的hosts文件： 添加如下内容：
  *  127.0.0.1 eureka7001.com
  	127.0.0.1 eureka7002.com
  	127.0.0.1 eureka7003.com
  *
  *  集群： 是指  在不同的机器或者服务器上配置相同的服务， 对外做一个超大运算的整体。
+ *
+ *  CAP :  C:Consistency 强一致性
+ *  	   A:Availability 可用性
+ *  	   P:Partition tolerance 分区容错性
+ *
+ *  RDBMS (mysql/oracle/sqlServer) =====> ACID
+ *
+ *  NOSQL (redis/ mongodb)         =====> CAP
  *
  *
  *
