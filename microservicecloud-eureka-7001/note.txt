@@ -106,6 +106,12 @@ Ribbon核心组件IRule
     ‘Bootstrap’ 属性有高优先级，默认情况下，它们不会被本地配置覆盖。‘Bootstrap Context’和‘Application Context’有着不同的约定，
     所以新增了一个‘bootstrap.yml’文件，保证‘Bootstrap Context’和‘Application Context’配置的分离。
 
+
+    Spring Cloud Config配置实战：
+    1、Config服务端配置OK且测试通过，我们可以和config+GitHub进行配置修改并获得内容
+    2、此时我们做一个eureka服务+一个Dept访问的微服务，将两个微服务的配置统一配置分布式管理，完成多环境的变更。
+
+
 十一、第一季总结/第二及展望
 
     阶段1：单机集中构建网站
